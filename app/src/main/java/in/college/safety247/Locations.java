@@ -177,12 +177,12 @@ public class Locations extends android.support.v4.app.Fragment implements OnMapR
 
         /*TODO: Remove this useless marker of AKGEC and put the marker after fetching current location.*/
 
-
+/*
         LatLng latLang = new LatLng(28.677497, 77.500748);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLang, 15));
         originMarkers.add(mMap.addMarker(new MarkerOptions()
                 .title("Ajay Kumar Garg Engineering College")
-                .position(latLang)));
+                .position(latLang)));*/
 
        if (ContextCompat.checkSelfPermission(this.getContext(), android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ContextCompat.checkSelfPermission(this.getContext(), android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
 //             TODO: Consider calling
