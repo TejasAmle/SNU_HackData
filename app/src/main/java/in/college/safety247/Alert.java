@@ -55,6 +55,7 @@ public class Alert extends android.support.v4.app.Fragment {
             public void onLocationChanged(Location location) {
                 lat = location.getLatitude();
                 lang = location.getLongitude();
+
             }
 
             @Override

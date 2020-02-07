@@ -3,7 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/women-safety-master.iml" filepath="$PROJECT_DIR$/women-safety-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/women-safety-master-app.iml" filepath="$PROJECT_DIR$/app/women-safety-master-app.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/vasu_snu.iml" filepath="$PROJECT_DIR$/vasu_snu.iml" />
+>>>>>>> b97467be95ff180d76549a3923789b58e53d9256
     </modules>
   </component>
 </project>
