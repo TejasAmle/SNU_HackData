@@ -60,16 +60,19 @@ public class Alert extends android.support.v4.app.Fragment {
 
             @Override
             public void onStatusChanged(String provider, int status, Bundle extras) {
+                Toast.makeText(getContext(), "GPS status is changed", Toast.LENGTH_LONG).show();
 
             }
 
             @Override
             public void onProviderEnabled(String provider) {
+                Toast.makeText(getContext(), "GPS is enabled", Toast.LENGTH_LONG).show();
 
             }
 
             @Override
             public void onProviderDisabled(String provider) {
+                Toast.makeText(getContext(), "GPS is disabled", Toast.LENGTH_LONG).show();
 
             }
 
@@ -84,7 +87,7 @@ public class Alert extends android.support.v4.app.Fragment {
             // for ActivityCompat#requestPermissions for more details.
             return;
         }
-        mLocationManager.requestLocationUpdates("gps", 2000, 0, mLocationListener);
+        mLocationManager.requestLocationUpdates("gps", 20, 5, mLocationListener);
     }
 
     @Nullable
